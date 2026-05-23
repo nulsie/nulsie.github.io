@@ -441,3 +441,14 @@ label.toggle-btn::before {
     font-weight: bold;
     transition: text-shadow 0.3s ease-in-out;
 }
+
+.incrementer-badge {
+    width: 100%;            
+    max-width: 150px;       
+    height: 30px;          
+    border: 1px solid var(--button-border);
+    background-color: var(--button-bg);    
+    border-radius: 4px;    
+    display: block;
+    margin: 10px auto;     
+}
