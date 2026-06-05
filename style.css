@@ -1,7 +1,7 @@
   :root {
             --bg-color: #2E3440;      
             --text-color: #D8DEE9;    /* Soft grey-white text */
-            --heading-color: #E5E9F0; /* Off-white for contrast */
+            --heading-color: #E5E9F0; 
             --button-bg: #434C5E;     /* Muted slate blue */
             --button-border: #4C566A;  /* Darker grey-blue border */
             --button-hover: #5E81AC;  /* Soft, non-purplish blue */
