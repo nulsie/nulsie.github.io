@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Cozette';
+    src: url('fonts/CozetteVector.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 :root {
             --bg-color: #2E3440;      
             --text-color: #D8DEE9;    /* Soft grey-white text */
@@ -20,7 +27,7 @@
             color: var(--text-color);
             font-family: 'Cozette', monospace;
             line-height: 1.6;
-            font-size: 14px;
+            font-size: 13px;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
