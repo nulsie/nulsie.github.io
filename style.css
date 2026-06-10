@@ -1,4 +1,12 @@
-  :root {
+@font-face {
+    font-family: 'Cozette';
+    src: url('https://unpkg.com/cozette@1.23.1/img/cozette.woff2') format('woff2'),
+         url('https://unpkg.com/cozette@1.23.1/img/cozette.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
             --bg-color: #2E3440;      
             --text-color: #D8DEE9;    /* Soft grey-white text */
             --heading-color: #E5E9F0; 
@@ -18,7 +26,7 @@
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
-            font-family: 'JetBrains Mono', monospace;
+            font-family: 'Cozette', monospace;
             line-height: 1.6;
             font-size: 14px;
             display: flex;
@@ -201,7 +209,7 @@ pre {
 }
 
 code{
-    font-family: 'JetBrains Mono', monospace !important;
+    font-family: 'Cozette', monospace !important;
     text-shadow: none !important;
 }
  /* ASCII Project Tree Styles */
