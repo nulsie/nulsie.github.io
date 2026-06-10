@@ -297,7 +297,7 @@ code{
 
 .asm-word:hover {
     color: #fff;
-    background-color: #2E3440; /* Nord Yellow highlight */
+    background-color: #fff; /* Nord Yellow highlight */
 }
 
 .asm-word::before { content: "asm"; }
