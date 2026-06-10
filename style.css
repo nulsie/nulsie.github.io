@@ -290,14 +290,14 @@ code{
 /* ASM Interactive Styling - Blue to Red Shift */
 /* ASM - The "Breakpoint" Style */
 .asm-word {
-    color: #151b54; /* Nord Blue */
+    color: #d8dee9; /* Nord Blue */
     font-weight: bold;
     cursor: crosshair;
 }
 
 .asm-word:hover {
     color: #fff;
-    background-color: #fff; /* Nord Yellow highlight */
+    background-color: #2E3440;
 }
 
 .asm-word::before { content: "asm"; }
