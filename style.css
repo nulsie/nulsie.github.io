@@ -340,19 +340,6 @@ code{
     font-weight: bold;
 }
 
-/* First half of the word */
-.dual-tone::before {
-    content: attr(data-first);
-    color: #FFD43B;
-    font-weight: bold;
-}
-
-/* Second half of the word */
-.dual-tone::after {
-    content: attr(data-second);
-    color: #1572B6; /* Nord Blue */
-}
-
 /* Global rule to ensure no animations if any exist elsewhere */
 .asm-word, .bf-word {
     transition: none !important;
