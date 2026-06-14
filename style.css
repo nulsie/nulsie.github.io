@@ -289,6 +289,17 @@ code{
 /* ASM Interactive Styling */
 /* ASM Interactive Styling - Blue to Red Shift */
 /* ASM - The "Breakpoint" Style */
+.asm-word:hover span, 
+.bf-word:hover span {
+    display: none; 
+}
+.asm-word:hover::after {
+    content: attr(data-morph);
+}
+
+.bf-word:hover::after {
+    content: attr(data-morph);
+}
 .asm-word {
     color: #d8dee9; /* Nord Blue */
     font-weight: bold;
@@ -299,9 +310,6 @@ code{
     color: #fff;
     background-color: #2E3440;
 }
-
-.asm-word::before { content: "asm"; }
-.asm-word:hover::before { content: "0x41534D"; } /* INT 3 / Breakpoint */
 
 /* Brainfuck - The "Memory Glitch" Style */
 .bf-word {
@@ -315,9 +323,6 @@ code{
     background-color: #d1001f; /* Nord Red highlight */
     text-transform: lowercase;
 }
-
-.bf-word::before { content: "brainfuck"; }
-.bf-word:hover::before { content: "[->+<]>"; } /* BF Pointer logic */
 
 .html-word {
     color: #FF8C69;
