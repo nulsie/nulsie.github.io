@@ -340,6 +340,16 @@ code{
     font-weight: bold;
 }
 
+.pyyellow {
+    color: #FFD43B;
+    font-weight: bold;
+}
+
+.pyblue {
+    color: #1572B6;
+    font-weight: bold;
+}
+
 /* Global rule to ensure no animations if any exist elsewhere */
 .asm-word, .bf-word {
     transition: none !important;
