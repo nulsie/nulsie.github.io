@@ -388,6 +388,11 @@ code{
     box-shadow: 12px 12px 0px 0px #1a1e25;
     background-color: var(--bg-color);
 }
+
+.right-sidebar-gif {
+    margin-top: 0;           /* Removed since parent now handles it */
+    max-width: 250px;
+}
         
 code:not([class*="language-"]) {
     background-color: #3B4252; 
